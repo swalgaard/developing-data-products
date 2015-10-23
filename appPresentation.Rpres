@@ -1,0 +1,28 @@
+Coursera Developing Data Products Project Presentation
+========================================================
+
+Motive
+========================================================
+
+The company I work for handles a lot of data. In the future we would like our users to manage their own data. This can be achieved using a Shiny Application written in R.
+
+Aim
+========================================================
+
+It was my aim to build an app in which you can:
+* Select a dataset
+* Determine which columns to select
+* Determine the format of time variables
+* Export the dataset as an .CSV file
+
+Overview
+========================================================
+
+For this app I created 3 example datasets. Each dataset consists of temporal periods that are assigned to a certain physical activity class. Furthermore, the number of steps per period is calculated.
+
+I think that users would like to determine their own variables to use, therefore it is possible to select and deselect variables. Furthermore it is possible to change the formation of the time variables from Unix timestamp (e.g. `r as.numeric(Sys.time())`) or datetime format(e.g. `r Sys.time()`)
+
+Interested?
+======
+* Interested in learning to build your own Shiny Application? Visit [Coursera](https://www.coursera.org/course/devdataprod)
+* Interested in the Shiny Application? Visit [my Github account](https://swalgaard.shinyapps.io/data_products_project)

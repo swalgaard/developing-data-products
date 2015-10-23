@@ -30,7 +30,16 @@ shinyServer(function(input, output)
       # Render the table according to selected columns
       output$table <- renderDataTable(
             {
-                  df()[, input$show_vars, drop = FALSE]
+                  dataFrame <- df()
+                  if (input$start_format == "unix timestamp")
+                  {
+                        if (length(dataFrame$end) != 0)
+                        {
+                        dataFrame$end <- as.numeric(dataFrame$end)
+                        }
+                        dataFrame$start <- as.numeric(dataFrame$start)
+                  }
+                  dataFrame[, input$show_vars, drop = FALSE]
             })
       
       # Download the data as a csv file
