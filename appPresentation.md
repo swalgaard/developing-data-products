@@ -20,9 +20,9 @@ Overview
 
 For this app I created 3 example datasets. Each dataset consists of temporal periods that are assigned to a certain physical activity class. Furthermore, the number of steps per period is calculated.
 
-I think that users would like to determine their own variables to use, therefore it is possible to select and deselect variables. Furthermore it is possible to change the formation of the time variables from Unix timestamp (e.g. 1.4456137 &times; 10<sup>9</sup>) or datetime format(e.g. 2015-10-23 17:21:38)
+I think that users would like to determine their own variables to use, therefore it is possible to select and deselect variables. Furthermore it is possible to change the formation of the time variables from Unix timestamp (e.g. 1.4456758 &times; 10<sup>9</sup>) or datetime format(e.g. 2015-10-24 10:36:55)
 
 Interested?
 ======
 * Interested in learning to build your own Shiny Application? Visit [Coursera](https://www.coursera.org/course/devdataprod)
-* Interested in the Shiny Application? Visit [my Github account](https://swalgaard.shinyapps.io/data_products_project)
+* Interested in the Shiny Application? Visit [my Github account](https://github.com/swalgaard/developing-data-products) or go directly to the [app](https://swalgaard.shinyapps.io/developing-data-products)
